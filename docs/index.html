@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="o9It_7_9BAUWLfDzlOBDQYTrQaRc67DR4nbe-9RiZxY">
+    <title>Unfinished Sympathy</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@neos21/neos-normalize@2.1.2/neos-normalize.min.css">
+    <style>
+
+:root {
+  --nn-colour-green: #0f0;
+  
+  --nn-colour-base      : var(--nn-colour-green);
+  --nn-colour-background: var(--nn-colour-black);
+}
+
+html {
+  font-family: var(--nn-font-family-monospace);
+          user-select: none;
+  -webkit-user-select: none;
+}
+
+body {
+  max-width: 50rem;
+  margin: var(--nn-space-default) auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+form {
+  margin: var(--nn-space-default) 0;
+  border: 1.2px solid #eee;
+  border-radius: 4px;
+  padding: var(--nn-space-tiny) var(--nn-space-default);
+}
+
+[type="text"], [type="password"], [type="submit"] {
+  display: block;
+  margin: var(--nn-space-small) 0;
+  width: 100%;
+  border-width: 1.2px;
+  border-color: #0c0;
+  font-size: 17px;
+  background: var(--nn-colour-background);
+}
+
+[type="text"]:hover, [type="text"]:focus, [type="password"]:hover, [type="password"]:focus, [type="submit"]:hover, [type="submit"]:focus {
+  border-color: var(--nn-colour-base);
+  outline: 0;
+}
+
+[type="submit"]:hover, [type="submit"]:focus {
+  background: inherit;
+}
+
+[type="submit"]:active {
+  border-color: #eee;
+  color: #eee;
+}
+
+::placeholder {
+  color: #060;
+}
+
+    </style>
+  </head>
+  <body>
+
+<h1>Unfinished Sympathy</h1>
+
+<form id="form" method="GET" action="https://discord.gg/VkUVZUdvTK">
+  <input type="text"     id="form-identifier" value="" placeholder="Identifier">
+  <input type="password" id="form-credential" value="" placeholder="Credential">
+  <input type="submit"   id="form-submit"     value="Log In">
+</form>
+
+  </body>
+</html>
